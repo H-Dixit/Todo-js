@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/list-check-solid.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To Do List App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h1>To Do List <img src="assets/list-check-solid.svg"></h1>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add a new task" />
+          <button class="add" onclick="addTask()">Add</button>
+        </div>
+        <ul id="todo-list">
+
+        </ul>
+      </div>
+      <div class="alldelete">
+        <button onclick="deleteAll()" id="delete-all-btn">Delete All <img src="assets/trash-can-regular.svg" alt="delete all"></button>
+      </div>
+    </div>
+  <script src="js/script.js"></script>
+  </body>
+</html>
